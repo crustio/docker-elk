@@ -11,10 +11,3 @@ monitoring.ui.container.elasticsearch.enabled: true
 #
 elasticsearch.username: elastic
 elasticsearch.password: changeme
-
-xpack.security.authc.providers:
-  anonymous.anonymous1:
-    order: 1
-    credentials:
-      username: "only-see"
-      password: "123456"
